@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "S3Signer", targets: ["S3Signer"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/vapor/vapor.git", from: "3.0.0"),
+        .package(url: "https://github.com/vapor/vapor.git", from: "4.90.0"),
         .package(url: "https://github.com/LiveUI/XMLCoding.git", from: "0.1.0"),
     ],
     targets: [
